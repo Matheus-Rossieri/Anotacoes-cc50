@@ -1,9 +1,7 @@
-## **Pseudocódigo**
+## Pseudocódigo
 
 Podemos escrever **pseudocódigo**, que é uma representação de nosso algoritmo em inglês preciso (ou alguma outra linguagem humana):
-
----------------------------------------------------------------------------------------------------------------------------
-
+```
 1 Pegue a lista telefônica
 2 Abra no meio da lista telefônica
 3 Olhe para a página
@@ -17,15 +15,11 @@ Podemos escrever **pseudocódigo**, que é uma representação de nosso algoritm
 11  Volte para a linha 3
 12 Caso contrário
 13  Desistir
-
----------------------------------------------------------------------------------------------------------------------------
-
+```
 - Com essas etapas, verificamos a página do meio, decidimos o que fazer e repetimos. Se a pessoa não estiver na página e não houver mais páginas sobrando no livro, paramos. E esse caso final é particularmente importante para lembrar. Quando outros programas em nossos computadores esquecem esse caso final, eles podem travar ou parar de responder, uma vez que encontraram um caso que não foi contabilizado, ou continuar a repetir o mesmo trabalho continuamente nos bastidores, sem fazer nenhum progresso.
 
 Algumas dessas linhas começam com verbos ou ações. Começaremos chamando estas *funções*:
-
-----------------------------------------------------------------------------------------------------------------------
-
+```
 1 **Pegue** a lista telefônica
 2 **Abra** no meio da lista telefônica
 3 **Olhe** para a página
@@ -39,13 +33,9 @@ Algumas dessas linhas começam com verbos ou ações. Começaremos chamando esta
 11  Volte para a linha 3
 12 Caso contrário
 13  **Desistir**
-
----------------------------------------------------------------------------------------------------------------------------
-
+```
 Também temos ramificações que levam a caminhos diferentes, como bifurcações na estrada, que chamaremos de *condições*:
-
----------------------------------------------------------------------------------------------------------------------------
-
+```
 1 Pegue a lista telefônica
 2 Abra no meio da lista telefônica
 3 Olhe para a página
@@ -59,13 +49,9 @@ Também temos ramificações que levam a caminhos diferentes, como bifurcações
 11  Volte para a linha 3
 12 **Caso contrário**
 13  Desistir
-
----------------------------------------------------------------------------------------------------------------------------
-
+```
 E as perguntas que decidem para onde vamos são chamadas de *expressões booleanas* , que eventualmente resultam em um valor de sim ou não, verdadeiro ou falso:
-
----------------------------------------------------------------------------------------------------------------------------
-
+```
 1 Pegue a lista telefônica
 2 Abra no meio da lista telefônica
 3 Olhe para a página
@@ -79,12 +65,10 @@ E as perguntas que decidem para onde vamos são chamadas de *expressões boolean
 11  Volte para a linha 3
 12 Caso contrário
 13  Desistir
-
----------------------------------------------------------------------------------------------------------------------------
-
+```
 Por último, temos palavras que criam ciclos, onde podemos repetir partes de nosso programa, chamadas *loops*:
 
----------------------------------------------------------------------------------------------------------------------------
+```
 
 1 Pegue a lista telefônica
 2 Abra no meio da lista telefônica
@@ -100,4 +84,5 @@ Por último, temos palavras que criam ciclos, onde podemos repetir partes de nos
 12 Caso contrário
 13  Desistir
 
----------------------------------------------------------------------------------------------------------------------------
+```
+
